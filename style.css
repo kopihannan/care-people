@@ -14,12 +14,11 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(images/background.jpg);
+    background: linear-gradient(rgba(3, 1, 10, 0.514), rgba(3, 1, 10, 0.555)), url(images/background.jpg);
     background-size: cover;
-    margin-bottom: 70px;
 }
 span{
-    color: orange;
+    color: #0cd48b;
 }
 .top-container{
     text-align: center;
@@ -70,10 +69,18 @@ span{
 }
 .donate-price{
     padding-bottom: 90px;
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.plan-section{
+    background-color: #F8FCFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .second-h1{
     padding-bottom: 15px;
-    color: #121212;
+    color: #072366;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
@@ -106,7 +113,7 @@ span{
 }
 .taka-num-color{
     width: 120px;
-    background-color: #05986262;
+    background-color: #18b47b4f;
     text-align: center;
     color: #059862;
     cursor: pointer;
@@ -235,8 +242,9 @@ span{
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    margin-bottom: 120px;
-    padding-top: 90px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color:white;
 }
 .their-live-donation{
     width: 50%;
@@ -244,12 +252,8 @@ span{
     padding-left: 20px;
 }
 
+
 .their-live-donation-text{
-    padding: 20px 70px 20px 20px;
-    width: 50%;
-    text-align: justify;
-}
-.their-live-donation-text-second{
     padding: 20px 20px 20px 70px;
     width: 50%;
     text-align: justify;
@@ -262,9 +266,9 @@ span{
     border-radius: 5px;
 }
 .third-h1{
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 15px;
-    color: #1a1a1a;
+    color: #072366;
     font-weight: 800;
 }
 .third-p{
@@ -284,8 +288,6 @@ span{
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 60vh;
-    margin-bottom: 90px;
-    margin-top: 150px;
 }
 .volunteer-div{
     padding-left: 20px;
@@ -296,7 +298,7 @@ span{
 .volunteer-h1{
     font-size: 40px;
     padding-bottom: 15px;
-    color: #ff6600;
+    color: #0cd48b;
     font-weight: 800;
     padding-bottom: 20px;
 }
@@ -310,8 +312,52 @@ span{
     text-decoration: none;
 
 }
+
+.leader-section{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F8FCFF;
+}
+.leader-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 120px;
+}
+.leader-h5{
+    color: #059862;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.leader-h1{
+    color: #072366;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 60px;
+}
+
+.leader{
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+    transition: 0.5s;
+}
+.leader:hover{
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+    color: #03744a;
+    cursor: pointer;
+}
+.leader img{
+    border-radius: 5px 5px 0 0;
+}
 .update-section{
-    padding-bottom: 90px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    background-color: white;
 }
 .subcribe-div{
     background-color: #FFF4D6;
@@ -349,7 +395,7 @@ span{
     border-radius: 5px 0px 0px 5px;
 }
 footer{
-    background-color: rgb(0, 124, 118);
+    background-color: #030820;
     text-align: center;
     color: white;
     padding: 50px 0;
@@ -362,5 +408,6 @@ footer{
 .footer-p{
     font-size: 13px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 20px;
+    color: #d8d8d8;
 }
